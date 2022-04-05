@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>何为云原生? - jiaming_大前端体系</title><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#be223a"><meta name="application-name" content="知己知彼"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="msapplication-TileColor" content="#be223a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="知己知彼"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="技术的变革，一定是思想先行，云原生是一种构建和运行应用程序的方法，是一套技术体系和方法论。云原生（CloudNative）是一个组合词，Cloud+Native。Cloud表示应用程序位于云中，而不是传统的数据中心；Native表示应用程序从设计之初即考虑到云的环境，原生为云而设计，在云上以最佳姿势运行，充分利用和发挥云平台的弹性+分布式优势。"><meta property="og:type" content="blog"><meta property="og:title" content="何为云原生?"><meta property="og:url" content="https://first-jim.github.io/2021/12/13/%E4%BD%95%E4%B8%BA%E4%BA%91%E5%8E%9F%E7%94%9F/"><meta property="og:site_name" content="jiaming_大前端体系"><meta property="og:description" content="技术的变革，一定是思想先行，云原生是一种构建和运行应用程序的方法，是一套技术体系和方法论。云原生（CloudNative）是一个组合词，Cloud+Native。Cloud表示应用程序位于云中，而不是传统的数据中心；Native表示应用程序从设计之初即考虑到云的环境，原生为云而设计，在云上以最佳姿势运行，充分利用和发挥云平台的弹性+分布式优势。"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://first-jim.github.io/2021/12/13/%E4%BD%95%E4%B8%BA%E4%BA%91%E5%8E%9F%E7%94%9F/cover.png"><meta property="article:published_time" content="2021-12-13T15:51:20.000Z"><meta property="article:modified_time" content="2021-12-13T16:34:13.900Z"><meta property="article:author" content="Jimmy"><meta property="article:tag" content="云原生"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/2021/12/13/%E4%BD%95%E4%B8%BA%E4%BA%91%E5%8E%9F%E7%94%9F/cover.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://first-jim.github.io/2021/12/13/%E4%BD%95%E4%B8%BA%E4%BA%91%E5%8E%9F%E7%94%9F/"},"headline":"jiaming_大前端体系","image":["https://first-jim.github.io/2021/12/13/%E4%BD%95%E4%B8%BA%E4%BA%91%E5%8E%9F%E7%94%9F/cover.png"],"datePublished":"2021-12-13T15:51:20.000Z","dateModified":"2021-12-13T16:34:13.900Z","author":{"@type":"Person","name":"Jimmy"},"description":"技术的变革，一定是思想先行，云原生是一种构建和运行应用程序的方法，是一套技术体系和方法论。云原生（CloudNative）是一个组合词，Cloud+Native。Cloud表示应用程序位于云中，而不是传统的数据中心；Native表示应用程序从设计之初即考虑到云的环境，原生为云而设计，在云上以最佳姿势运行，充分利用和发挥云平台的弹性+分布式优势。"}</script><link rel="canonical" href="https://first-jim.github.io/2021/12/13/%E4%BD%95%E4%B8%BA%E4%BA%91%E5%8E%9F%E7%94%9F/"><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/monokai.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script data-ad-client="ca-pub-6826040978803389" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><meta name="generator" content="Hexo 5.4.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="jiaming_大前端体系" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">博客</a><a class="navbar-item" href="/fe">大前端技术体系</a><a class="navbar-item" href="/gis">GIS技术体系</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/about">关于我们</a><a class="navbar-item" href="/tags">分类</a></div><div class="navbar-end"><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="fill" src="/2021/12/13/%E4%BD%95%E4%B8%BA%E4%BA%91%E5%8E%9F%E7%94%9F/cover.png" alt="何为云原生?"></span></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-12-13T15:51:20.000Z" title="2021-12-13T15:51:20.000Z">2021-12-13</time>发表</span><span class="level-item"><time dateTime="2021-12-13T16:34:13.900Z" title="2021-12-13T16:34:13.900Z">2021-12-14</time>更新</span><span class="level-item"> Jimmy </span><span class="level-item"><a class="link-muted" href="/categories/%E4%BD%95%E8%B0%93%E4%BA%91%E5%8E%9F%E7%94%9F%EF%BC%9F/">何谓云原生？</a><span> / </span><a class="link-muted" href="/categories/%E4%BD%95%E8%B0%93%E4%BA%91%E5%8E%9F%E7%94%9F%EF%BC%9F/%E4%BA%91%E5%85%83%E7%B4%A0%E7%9A%84%E5%9B%9B%E8%A6%81%E7%B4%A0/">云元素的四要素</a></span><span class="level-item">21 分钟读完 (大约3108个字)</span></div></div><h1 class="title is-3 is-size-4-mobile">何为云原生?</h1><div class="content"><h1 id="1-何为云原生？"><a href="#1-何为云原生？" class="headerlink" title="1 何为云原生？"></a>1 何为云原生？</h1><p><strong>技术的变革，一定是思想先行， 云原生是一种构建和运行应用程序的方法</strong>， 是一套技术体系和方法论。云原生（CloudNative）是一个组合词，Cloud+Native。Cloud 表示 <a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22article%22,%22sourceId%22:150190166%7D">应用程序</a>位于云中，而不是传统的<a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22article%22,%22sourceId%22:150190166%7D">数据中心</a>; Native 是表示应用程序从设计之初即考虑到云的环境，原生为云而设计，在云上以<strong>最佳姿势运行</strong>，充分利用和发挥云平台的弹性+分布式优势。</p>
+<p>Pivotal 公司的 Matt Stine 于 2013 年首次提出云原生（CloudNative）的概念；2015 年，云原生刚推广时，Matt Stine 在《<a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=%E8%BF%81%E7%A7%BB%E5%88%B0%E4%BA%91%E5%8E%9F%E7%94%9F%E6%9E%B6%E6%9E%84&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22article%22,%22sourceId%22:150190166%7D">迁移到云原生架构</a>》一书中定义了符合云原生架构的几个特征：12 因素、微服务、自敏捷架构、基于 API 协作、扛脆弱性；到了 2017 年，Matt Stine 在接受 InfoQ 采访时又改了口风，将云原生架构归纳为模块化、可观察、可部署、可测试、可替换、可处理 6 特质；而 Pivotal 最新官网对云原生概括为 4 个要点：<strong>DevOps+持续交付+微服务+容器。</strong></p>
+<p><img src="one.png" alt="云原生.png"></p>
+<p>2015 年云原生计算基金会（CNCF）成立，CNCF 掺和进来后，最初把云原生定义为包括：容器化封装+自动化管理+面向微服务；到了 2018 年，CNCF 又更新了云原生的定义，把服务网格(Service Mesh)和<a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=%E5%A3%B0%E6%98%8E%E5%BC%8FAP&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22article%22,%22sourceId%22:150190166%7D">声明式 API</a> 给加了进来。</p>
+<p>可见，不同的人和组织对云原生有不同的定义，相同的人和组织在不同时间点对云原生也有不同的定义，真是乱的一匹，搞得鄙人非常晕菜，我的应对很简单，选一个我最容易记住和理解的定义：DevOps+持续交付+微服务+容器。</p>
+<p>总而言之，符合<strong>云原生架构的应用程序应该是：采用开源堆栈（K8S+Docker）进行容器化，基于微服务架构提高灵活性和可维护性，借助敏捷方法、DevOps 支持持续迭代和运维自动化，利用云平台设施实现弹性伸缩、动态调度、优化资源利用率。</strong></p>
+<p>云原生构建应用简便快捷，部署应用轻松自如、运行应用按需伸缩。优点不一而足，缺点微乎其微；秒杀传统 Web 框架，吊打祖传 IT 模式，实在是保命**、评优晋级不可多得的终极绝密武器。</p>
+<h1 id="2-云元素的四要素"><a href="#2-云元素的四要素" class="headerlink" title="2 云元素的四要素"></a>2 云元素的四要素</h1><p><strong>微服务</strong>：几乎每个云原生的定义都包含微服务，跟微服务相对的是单体应用，微服务有理论基础，那就是<a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22article%22,%22sourceId%22:150190166%7D">康威定律</a>，指导服务怎么切分，很玄乎，凡是能称为<a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=%E7%90%86%E8%AE%BA%E5%AE%9A%E5%BE%8B&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22article%22,%22sourceId%22:150190166%7D">理论定律</a>的都简单明白不了，不然就忒没 b 格，大概意思是组织架构决定产品形态，不知道跟马克思的生产关系影响生产力有无关系。</p>
+<p>微服务架构的好处就是按 function 切了之后，服务解耦，内聚更强，变更更易；另一个划分服务的技巧据说是依据 DDD 来搞。</p>
+<p><strong>容器化</strong>：Docker 是应用最为广泛的容器引擎，在思科谷歌等公司的基础设施中大量使用，是基于 LXC 技术搞的，容器化为微服务提供实施保障，起到应用隔离作用，K8S 是容器编排系统，用于容器管理，容器间的负载均衡，谷歌搞的，Docker 和 K8S 都采用 Go 编写，都是好东西。</p>
+<p><strong>DevOps</strong>：这是个组合词，Dev+Ops，就是开发和运维合体，不像开发和产品，经常刀刃相见，实际上 DevOps 应该还包括测试，DevOps 是一个敏捷思维，是一个沟通文化，也是组织形式，为云原生提供持续交付能力。</p>
+<p><strong>持续交付</strong>：持续交付是不误时开发，不停机更新，小步快跑，反传统瀑布式开发模型，这要求开发版本和稳定版本并存，其实需要很多流程和工具支撑。</p>
+<p><img src="two.png" alt="image.png"></p>
+<h1 id="3-如何云原生？"><a href="#3-如何云原生？" class="headerlink" title="3 如何云原生？"></a>3 如何云原生？</h1><p>首先，云原生借了云计算的东风，没有云计算，自然没有云原生，云计算是云原生的基础。</p>
+<p>随着虚拟化技术的成熟和分布式框架的普及，在容器技术、可持续交付、编排系统等开源社区的推动下，以及微服务等开发理念的带动下，<strong>应用上云已经是不可逆转的趋势。</strong></p>
+<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=%E4%BA%91%E8%AE%A1&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22article%22,%22sourceId%22:150190166%7D">云计算</a>的 3 层划分，即基础设施即服务(IaaS)、平台即服务(PaaS)、软件即服务(SaaS)为云原生提供了技术基础和方向指引，<strong>真正的云化不仅仅是基础设施和平台的变化，应用也需要做出改变</strong>，摒弃传统的土方法，在架构设计、开发方式、部署维护等各个阶段和方面都基于云的特点，重新设计，从而建设全新的云化的应用，即云原生应用。</p>
+<ol>
+<li><p>本地部署的传统应用往往采用 c/c++、企业级 java 编写，而云原生应用则需要用以网络为中心的 go、node.js 等新兴语言编写。</p>
+</li>
+<li><p>本地部署的传统应用可能需要停机更新，而云原生应用应该始终是最新的，需要支持频繁变更，持续交付，蓝绿部署。</p>
+</li>
+<li><p>本地部署的传统应用无法动态扩展，往往需要冗余资源以抵抗流量高峰，而云原生应用利用云的弹性自动伸缩，通过共享降本增效。</p>
+</li>
+<li><p>本地部署的传统应用对网络资源，比如 ip、端口等有依赖，甚至是硬编码，而云原生应用对网络和存储都没有这种限制。</p>
+</li>
+<li><p>本地部署的传统应用通常人肉部署手工运维，而云原生应用这一切都是自动化的。</p>
+</li>
+<li><p>本地部署的传统应用通常依赖系统环境，而云原生应用不会硬连接到任何系统环境，而是依赖抽象的<a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22article%22,%22sourceId%22:150190166%7D">基础架构</a>，从而获得良好移植性。</p>
+</li>
+<li><p>本地部署的传统应用有些是单体(巨石)应用，或者强依赖，而基于微服务架构的云原生应用，纵向划分服务，模块化更合理。</p>
+</li>
+</ol>
+<p>可见，要转向云原生应用需要以新的云原生方法开展工作，云原生包括很多方面：基础架构服务、虚拟化、容器化、容器编排、微服务。幸运的是，开源社区在云原生应用方面做出了大量卓有成效的工作，很多开源的框架和设施可以通过拿来主义直接用，2013 年 Docker 推出并很快成为容器事实标准，随后围绕容器编排的混战中，2017 年诞生的 k8s 很快脱颖而出，而这些技术极大的降低了开发云原生应用的技术门槛。</p>
+<p><img src="three.png" alt="image.png"></p>
+<p>虽说云原生的推介文档有引导之嫌，但面对它列举的优点，作为杠精的我亦是无可辩驳。这么说的话，云原生也忒好了吧，应用是不是要立刻马上切换到云原生架构？我的观点是：理想很丰满，现实经常很骨感，需从应用的实际需要出发，目前的问题是否真的影响到业务发展，而推倒重来的代价能否承受得来。</p>
+<h1 id="4-技术的趋势和影响"><a href="#4-技术的趋势和影响" class="headerlink" title="4 技术的趋势和影响"></a>4 技术的趋势和影响</h1><p>软件设计有两个关键目标：<strong>高内聚、低耦合</strong>，围绕这 2 个核心目标，又提出了单一职责、开闭原则、里氏替换、依赖导致、接口隔离、最少知识等设计原则。</p>
+<p>软件工程师一直都在为这两个目标而努力奋斗，以求把软件编写得更加清晰、更加健壮、更加易于扩展和维护。</p>
+<p>但后来，人们发现有更多的诉求，希望开发软件变得更简单、更快捷，程序员希望更少编写代码，非专业人员也希望能开发程序，于是，更多的更傻瓜的编程语言被发明出来，更多的编程技术和编程思想被发明出来，比如库、组件、云基础设施。</p>
+<p>于是很多技术变成了屠龙之技，比如汇编，时代变了，建国后动物不能成精了，没有龙可以宰了，然后很多软件工程师摇身一变成了调参工程师、Call API 砖家、用库包能手、拼组件达人，这是效率分工的结果，也是技术发展的使然。</p>
+<p>纵观近二十年的科技互联网发展历程，<strong>大的趋势是技术下沉</strong>，特别是近些年，随着云计算的发展和普及，基础设施越来越厚实，业务开发变得越来越容易，也越来越没有技术含量，而之前困扰小团队的性能、负载、安全性、<a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=%E6%89%A9%E5%B1%95%E6%80%A7&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22article%22,%22sourceId%22:150190166%7D">扩展性</a>问题都不复存在，这不禁让互联网行业的油腻大叔们噤若寒蝉，仿佛分分钟就要被卷入历史洪流而万劫不复。</p>
+<p>虽然不可否认技术的重要性在降低，但也还不至于那么悲观。遥想 PC 时代，当 VB、Delphi、MFC 出现的时候，也有类似论调，所见即所得，点点鼠标，就可以开发 PC 桌面程序，是不是很高端？那时候码农的担心相比现在恐怕是只多不少吧，但后来随着互联网兴起，出现了后端开发这个工种，码农很快找到了新的战场，网络、分布式、数据库、海量服务、容灾防错，于是又玩出一堆新花样。</p>
+<p>如果说 PC 时代的基础设施是控件库，互联网时代的基础实施是云，那 AI 时代基础设施是什么？又会有什么高端玩法？</p>
+</div><div class="article-licensing box"><div class="licensing-title"><p>何为云原生?</p><p><a href="https://first-jim.github.io/2021/12/13/何为云原生/">https://first-jim.github.io/2021/12/13/何为云原生/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>Jimmy</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2021-12-13</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2021-12-14</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a class="" rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><a class="icon" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a><a class="icon" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/">云原生</a></div><div class="sharethis-inline-share-buttons"></div><script src="https://platform-api.sharethis.com/js/sharethis.js#property=61b5d089dfc4ad00193c0429&amp;product=inline-share-buttons" defer></script></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3><div class="buttons is-centered"><a class="button donate" data-type="alipay"><span class="icon is-small"><i class="fab fa-alipay"></i></span><span>支付宝</span><span class="qrcode"><img src="/img/alipayqr.jpg" alt="支付宝"></span></a><a class="button donate" data-type="wechat"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>微信</span><span class="qrcode"><img src="/img/wechatqr.jpg" alt="微信"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2022/04/04/Mobx-%E5%BF%AB%E4%B9%90%E5%B7%A5%E4%BD%9C-%E5%BF%AB%E4%B9%90%E5%8A%A0%E7%8F%AD/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">Mobx-快乐工作,快乐加班</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2021/12/06/%E5%85%83%E5%AE%87%E5%AE%99%E4%B8%8E%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E/"><span class="level-item">元宇宙 &amp; 虚拟现实</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">评论</h3><div class="content" id="valine-thread"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script><script>new Valine({
+            el: '#valine-thread' ,
+            appId: "4o5OfjCIGaSyqIwg7jop80Ge-gzGzoHsz",
+            appKey: "Rj9jcPLhW8WgWd6bDmXGmKaA",
+            placeholder: "欢迎评论交流",
+            avatar: "mm",
+            
+            meta: ["nick","mail","link"],
+            pageSize: 10,
+            lang: "zh-CN",
+            
+            highlight: true,
+            
+            
+            
+            
+            
+            requiredFields: [],
+        });</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="level is-mobile" href="#1-何为云原生？"><span class="level-left"><span class="level-item">1 何为云原生？</span></span></a></li><li><a class="level is-mobile" href="#2-云元素的四要素"><span class="level-left"><span class="level-item">2 云元素的四要素</span></span></a></li><li><a class="level is-mobile" href="#3-如何云原生？"><span class="level-left"><span class="level-item">3 如何云原生？</span></span></a></li><li><a class="level is-mobile" href="#4-技术的趋势和影响"><span class="level-left"><span class="level-item">4 技术的趋势和影响</span></span></a></li></ul></div></div><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="adsense"><div class="card-content"><div class="menu"><h3 class="menu-label"> </h3><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6826040978803389" data-ad-slot="1033672070" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="jiaming_大前端体系" height="28"></a><p class="is-size-7"><span>&copy; 2022 Jimmy</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" async></script><script>moment.locale("zh-CN");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "此网站使用Cookie来改善您的体验。",
+          dismiss: "知道了！",
+          allow: "允许使用Cookie",
+          deny: "拒绝",
+          link: "了解更多",
+          policy: "Cookie政策",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script></body></html>
